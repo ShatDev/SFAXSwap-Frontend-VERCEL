@@ -475,7 +475,7 @@ const Swap = () => {
               )}
             </AutoColumn>
             <BottomGrouping>
-              {disableSwap && (
+              {/* {disableSwap && (
                 <Flex alignItems="center" justifyContent="center" mb="1rem">
                   <Text color="failure">
                     Please use{' '}
@@ -485,7 +485,7 @@ const Swap = () => {
                     to make this trade
                   </Text>
                 </Flex>
-              )}
+              )} */}
               {!account ? (
                 <ConnectWalletButton width="100%" />
               ) : showWrap ? (
