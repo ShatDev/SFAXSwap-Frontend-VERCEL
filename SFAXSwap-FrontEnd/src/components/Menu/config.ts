@@ -13,7 +13,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://sfaxs-wap-frontend.vercel.app/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
     ],
   },

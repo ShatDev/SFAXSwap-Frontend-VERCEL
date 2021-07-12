@@ -479,7 +479,7 @@ const Swap = () => {
                 <Flex alignItems="center" justifyContent="center" mb="1rem">
                   <Text color="failure">
                     Please use{' '}
-                    <StyledLink external href="https://sfaxs-wap-frontend.vercel.app/#/swap">
+                    <StyledLink external href="https://sfaxs-wap-frontend.vercel.app/#">
                       PancakeSwap V2
                     </StyledLink>{' '}
                     to make this trade
