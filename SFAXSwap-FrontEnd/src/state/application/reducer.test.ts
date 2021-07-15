@@ -1,4 +1,4 @@
-import { ChainId } from '@overage69/pancake-sdk-v2'
+import { ChainId } from 'apeswap-sdk'
 import { createStore, Store } from 'redux'
 import { addPopup, removePopup, toggleSettingsMenu, toggleWalletModal, updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'

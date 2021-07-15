@@ -1,4 +1,4 @@
-import { Token } from '@overage69/pancake-sdk-v2'
+import { Token } from 'apeswap-sdk'
 import { transparentize } from 'polished'
 import React, { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import { ChainId } from '@overage69/pancake-sdk-v2'
+import { ChainId } from 'apeswap-sdk'
 import React, { useContext } from 'react'
 import { ThemeContext } from 'styled-components'
 import { ArrowUpCircle } from 'react-feather'

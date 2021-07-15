@@ -3816,9 +3816,9 @@
   resolved "https://registry.yarnpkg.com/@open-draft/until/-/until-1.0.3.tgz#db9cc719191a62e7d9200f6e7bab21c5b848adca"
   integrity sha512-Aq58f5HiWdyDlFffbbSjAlv596h/cOnt2DO1w3DOC7OJ5EHs0hd/nycJfiu9RJbT6Yk6F1knnRRXNSpxoIVZ9Q==
 
-"@overage69/pancake-sdk-v2@^3.0.0":
+"apeswap-sdk@^3.0.0":
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@overage69/pancake-sdk-v2/-/pancake-sdk-v2-3.0.0.tgz#a0e875e0f79d5bda72d7e664fdf8198384c880d0"
+  resolved "https://registry.yarnpkg.com/apeswap-sdk/-/pancake-sdk-v2-3.0.0.tgz#a0e875e0f79d5bda72d7e664fdf8198384c880d0"
   integrity sha512-JwqULb5UcNkikj5pSBUlYeszSWaoFVkDjfs6sevkRXvRpVwfWKpiOJ/IMuSnNbrYI6n/4LpxZpvn7CSrSUHicw==
   dependencies:
     "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
@@ -7035,6 +7035,19 @@ anymatch@^3.0.3, anymatch@~3.1.1:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+apeswap-sdk@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/apeswap-sdk/-/apeswap-sdk-1.0.4.tgz#7487bba5f2816a68f52e075c80ab3000d24888a7"
+  integrity sha512-EKiJ7p+oiUtJHqlIJAYExM/eCwiYxWU3hn+NOk43wWNRV0KEve/rTi8MGEs3YM+uxLuGEjxAy7LvlfVTPnsO+g==
+  dependencies:
+    "@pancakeswap-libs/pancake-swap-core" "^0.1.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
 
 apollo-cache-control@^0.14.0:
   version "0.14.0"

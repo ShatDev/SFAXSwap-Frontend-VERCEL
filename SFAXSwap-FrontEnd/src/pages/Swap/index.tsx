@@ -1,4 +1,4 @@
-import { CurrencyAmount, JSBI, Token, Trade } from '@overage69/pancake-sdk-v2'
+import { CurrencyAmount, JSBI, Token, Trade } from 'apeswap-sdk'
 import React, { useCallback, useContext, useEffect, useMemo, useState, useRef } from 'react'
 import { ArrowDown } from 'react-feather'
 import styled, { ThemeContext } from 'styled-components'

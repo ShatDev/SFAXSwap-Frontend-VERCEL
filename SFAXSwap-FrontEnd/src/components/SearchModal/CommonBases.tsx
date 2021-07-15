@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@overage69/pancake-sdk-v2'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from 'apeswap-sdk'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'
 import { SUGGESTED_BASES } from '../../constants'

@@ -1,6 +1,10 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@overage69/pancake-sdk-v2'
+import { ChainId, JSBI, Percent, Token, WETH } from 'apeswap-sdk'
 
 export const ROUTER_ADDRESS = '0x7530B119057232fDeC96E56565Ea46cf6c5A8e5a'
+
+export const INIT_CODE = '0x6e9acc9c655a25892bdedfd4c89084164d9d034e9d0d24b17b8f8de0220a9766'
+
+export const FACTORY_ADDRESS = '0x73c81afbb6f18f70e2fa43ec5f9676a3faf058be'
 
 // a list of tokens by chain
 type ChainTokenList = {
