@@ -22,7 +22,7 @@
     "jsx": "react-jsx",
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["react-spring", "jest", "react-transition-group"]
+    "types": ["react-spring", "jest", "react-transition-group", "react/jsx-runtime"]
   },
   "exclude": ["node_modules", "cypress"],
   "include": ["src"]
