@@ -32,7 +32,7 @@ export const lightColors: Colors = {
   primaryDark: "#0046a1",
   tertiary: "#353547",
   text: "#eef2ff",
-  textDisabled: "#989898",
+  textDisabled: "#616671",
   textSubtle: "#adbbd2",
   disabled: "#4b5363",
   gradients: {
@@ -63,7 +63,7 @@ export const darkColors: Colors = {
   primaryDark: "#0046a1",
   tertiary: "#353547",
   text: "#eef2ff",
-  textDisabled: "#989898",
+  textDisabled: "#616671",
   textSubtle: "#adbbd2",
   disabled: "#4b5363",
   gradients: {
