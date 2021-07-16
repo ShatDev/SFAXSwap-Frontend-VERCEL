@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from 'apeswap-sdk'
+import { Token, TokenAmount } from '@overage69/pancake-sdk-v2'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

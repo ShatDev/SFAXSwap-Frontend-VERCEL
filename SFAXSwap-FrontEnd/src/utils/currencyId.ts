@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from 'apeswap-sdk'
+import { Currency, ETHER, Token } from '@overage69/pancake-sdk-v2'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'BNB'

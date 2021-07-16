@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from 'apeswap-sdk'
+import { currencyEquals, Trade } from '@overage69/pancake-sdk-v2'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

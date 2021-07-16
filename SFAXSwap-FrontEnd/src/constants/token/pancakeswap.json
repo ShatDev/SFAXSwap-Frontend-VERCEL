@@ -1089,6 +1089,14 @@
       "chainId": 56,
       "decimals": 9,
       "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3.png"
+    },    
+    {
+      "name": "SFAX",
+      "symbol": "SAFEMOONmax",
+      "address": "0xa4b72b56495a947e16a0e1c2186b7b9b3ff78acd",
+      "chainId": 56,
+      "decimals": 9,
+      "logoURI": ""
     },
     {
       "name": "Tau Bitcoin",

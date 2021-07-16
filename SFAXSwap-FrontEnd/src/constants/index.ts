@@ -1,41 +1,20 @@
-import { ChainId, JSBI, Percent, Token, WETH } from 'apeswap-sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@overage69/pancake-sdk-v2'
 
-export const ROUTER_ADDRESS = '0x7530B119057232fDeC96E56565Ea46cf6c5A8e5a'
-
-export const INIT_CODE = '0x6e9acc9c655a25892bdedfd4c89084164d9d034e9d0d24b17b8f8de0220a9766'
-
-export const FACTORY_ADDRESS = '0x73c81afbb6f18f70e2fa43ec5f9676a3faf058be'
+export const ROUTER_ADDRESS = '0x92B331Dbc2c12B3E1332Ad7c2BDA264F755a385e'
 
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
-export const CAKE = new Token(
-  ChainId.MAINNET,
-  '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-  18,
-  'CAKE',
-  'PancakeSwap Token'
-)
+export const CAKE = new Token(ChainId.MAINNET,'0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',18,'CAKE','PancakeSwap Token')
 export const WBNB = new Token(ChainId.MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
 export const DAI = new Token(ChainId.MAINNET, '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
 export const BTCB = new Token(ChainId.MAINNET, '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 18, 'BTCB', 'Binance BTC')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059fF775485246999027B3197955', 18, 'USDT', 'Tether USD')
-export const UST = new Token(
-  ChainId.MAINNET,
-  '0x23396cF899Ca06c4472205fC903bDB4de249D6fC',
-  18,
-  'UST',
-  'Wrapped UST Token'
-)
-export const ETH = new Token(
-  ChainId.MAINNET,
-  '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
-  18,
-  'ETH',
-  'Binance-Peg Ethereum Token'
+export const UST = new Token(ChainId.MAINNET,'0x23396cF899Ca06c4472205fC903bDB4de249D6fC',18,'UST','Wrapped UST Token')
+export const ETH = new Token(ChainId.MAINNET,'0x2170Ed0880ac9A755fd29B2688956BD959F933F8',18,'ETH','Binance-Peg Ethereum Token'
 )
 
 const WETH_ONLY: ChainTokenList = {
