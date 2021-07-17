@@ -37,12 +37,7 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/3rDVcRMME480OGUx",
-      }
-    ],
+    href: "https://t.me/3rDVcRMME480OGUx",
   },
   {
     label: "Twitter",
