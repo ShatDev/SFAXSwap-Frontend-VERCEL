@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import { Currency, Pair } from '@overage69/pancake-sdk-v2'
-import styled from 'styled-components'
+import styled, { CSSProperties } from 'styled-components'
 import { darken } from 'polished'
 import useI18n from 'hooks/useI18n'
 import { useCurrencyBalance } from '../../state/wallet/hooks'
@@ -107,6 +107,9 @@ export default function CurrencyInputPanel({
   const handleDismissSearch = useCallback(() => {
     setModalOpen(false)
   }, [setModalOpen])
+  const btnStyle: CSSProperties = {
+    color: '#eef2ff',
+  };
   return (
     <InputPanel id={id}>
       <Container hideInput={hideInput}>
@@ -135,7 +138,7 @@ export default function CurrencyInputPanel({
                 }}
               />
               {account && currency && showMaxButton && label !== 'To' && (
-                <Button onClick={onMax} scale="sm" variant="text">
+                <Button style={btnStyle} onClick={onMax} scale="sm" variant="text">
                   MAX
                 </Button>
               )}
