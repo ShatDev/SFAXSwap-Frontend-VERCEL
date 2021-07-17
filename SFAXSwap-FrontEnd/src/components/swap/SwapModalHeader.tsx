@@ -1,6 +1,6 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
-import { Trade, TradeType } from '@overage69/pancake-sdk-v2 '
+import { Trade, TradeType } from '@overage69/pancake-sdk-v2'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 import { Field } from '../../state/swap/actions'
 import { isAddress, shortenAddress } from '../../utils'

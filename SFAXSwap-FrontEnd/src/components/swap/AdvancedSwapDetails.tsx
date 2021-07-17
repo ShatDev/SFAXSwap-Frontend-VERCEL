@@ -1,5 +1,5 @@
 import React from 'react'
-import { Trade, TradeType } from '@overage69/pancake-sdk-v2 '
+import { Trade, TradeType } from '@overage69/pancake-sdk-v2'
 import useI18n from 'hooks/useI18n'
 import { Field } from '../../state/swap/actions'
 import { useUserSlippageTolerance } from '../../state/user/hooks'

@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@overage69/pancake-sdk-v2 '
+import { Trade, TradeType } from '@overage69/pancake-sdk-v2'
 import React, { useMemo, useState } from 'react'
 import { Repeat } from 'react-feather'
 import useI18n from 'hooks/useI18n'
