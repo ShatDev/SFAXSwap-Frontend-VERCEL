@@ -77,12 +77,12 @@
       "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x9d70a3EE3079A6FA2bB16591414678b7Ad91f0b5/logo.png"
     },
     {
-      "name": "SafeMoon",
-      "symbol": "SAFEMOON",
-      "address": "0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3",
+      "name": "SAFEMOONmax",
+      "symbol": "SFAX",
+      "address": "0xa4b72b56495a947e16a0e1c2186b7b9b3ff78acd",
       "chainId": 56,
       "decimals": 9,
-      "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3/logo.png"
+      "logoURI": "https://static.wixstatic.com/media/e2a289_a7ff1b0436a042a3a436047d1738bd0f~mv2.png/v1/fill/w_45,h_43,al_c,q_85,usm_0.66_1.00_0.01/-22418removebg-preview_edited.png"
     },
     {
       "name": "TRONPAD.network",

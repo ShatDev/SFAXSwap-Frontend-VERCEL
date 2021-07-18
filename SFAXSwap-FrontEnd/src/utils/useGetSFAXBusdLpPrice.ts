@@ -3,9 +3,9 @@ import { useTradeExactIn } from 'hooks/Trades'
 import { tryParseAmount } from 'state/swap/hooks'
 
 const useGetSFAXBusdLpPrice = () => {
-  const cakeAddress = '0xa4b72b56495a947e16a0e1c2186b7b9b3ff78acd'
+  const sfaxAddress = '0xa4b72b56495a947e16a0e1c2186b7b9b3ff78acd'
   const busdAddress = '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56'
-  const inputCurrency = useCurrency(cakeAddress)
+  const inputCurrency = useCurrency(sfaxAddress)
   const outputCurrency = useCurrency(busdAddress)
   const parsedAmount = tryParseAmount('1', inputCurrency ?? undefined)
   const bestTradeExactIn = useTradeExactIn(parsedAmount, outputCurrency ?? undefined)
