@@ -13,7 +13,7 @@ const AudioSetting = ({ translateString }: AudioSettingModalProps) => {
   return (
     <Box mb="16px">
       <Flex alignItems="center" mb="8px">
-        <Text bold>{translateString(999, 'Audio')}</Text>
+        <Text bold>{translateString(999, ' ')}</Text>
       </Flex>
       <Box/>
     </Box>
